@@ -1,0 +1,655 @@
+﻿body
+{
+    background-color: #FFFFFF;
+    font-size: .75em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+a:link
+{
+    color: #034af3;
+}
+a:visited
+{
+    color: #505abc;
+}
+a:hover
+{
+    color: #1d60ff;
+}
+a:active
+{
+    color: #12eb87;
+}
+
+p, ul
+{
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #000;
+    font-family: Trebuchet MS,Helvetica,sans-serif;
+}
+h1
+{
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h2
+{
+    font-size: 1.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h3
+{
+    font-size: 1.2em;
+}
+h4
+{
+    font-size: 1.1em;
+}
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+.container
+{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 0px;
+    color: #000;
+    padding: 0;
+    border-bottom: 1px #5C87B2 dotted;
+}
+#header #logo
+{
+    float: left;
+    margin-top: 24px;
+}
+#header #logo img
+{
+    border: none 0;
+}
+#header #menucontainer
+{
+    float: right;
+    margin-top: 20px;
+}
+
+#googlead
+{
+    border-bottom: 1px #5C87B2 dotted;
+}
+
+#content
+{
+    border: none 0;
+}
+
+#subbanner
+{
+    float: left;
+    padding-left: 8px;
+    width: 100%;
+    border-bottom: solid 1px #686868;
+}
+
+#tabbar
+{
+    float: right;
+    margin: 20px 10px 0 0;
+}
+#tabbar a
+{
+    color: #9C9C9C;
+    text-decoration: none;
+}
+#tabbar a:visited
+{
+    color: #9C9C9C;
+}
+#tabbar a:hover
+{
+    color: #000000;
+}
+#tabbar a:active
+{
+    color: #8D8D8D;
+}
+.tab
+{
+    float: left;
+    padding: 4px 4px 4px 4px;
+    margin: 0 2px 0 2px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: solid 1px #9C9C9C;
+    border-bottom: none;
+}
+.tab:hover
+{
+    background-color: #D4D9EF;
+    border: solid 1px #000000;
+    border-bottom: none;
+}
+.tabcurrent
+{
+    float: left;
+    padding: 4px 4px 4px 4px;
+    margin: 0 4px 0 4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: solid 1px #000000;
+    border-bottom: none;
+    background-color: #D4D9EF;
+}
+
+#main
+{
+    float: left;
+    width: 735px;
+}
+
+#post-listing
+{
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+#sidebar
+{
+    float: right;
+    width: 170px;
+    background-color: #FFFFFF;
+    border-left: 1px #5C87B2 dotted;
+    padding: 10px 0 0 10px;
+}
+#sidebar ul
+{
+    display: inline;
+    list-style: none;
+    text-align: left;
+    vertical-align: middle;
+}
+#sidebar ul li
+{
+    margin: 4px 0 4px 0;
+    vertical-align: middle;
+}
+
+#navbar
+{
+    clear: left;
+    float: left;
+    width: 100%;
+    margin: 20px 0 10px 10px;
+}
+#navbar a
+{
+    color: #9C9C9C;
+    text-decoration: none;
+}
+#navbar a:visited
+{
+    color: #9C9C9C;
+}
+#navbar a:hover
+{
+    color: #8D8D8D;
+}
+
+.nav
+{
+    float: left;
+    padding: 4px 4px 4px 4px;
+    margin: 0 2px 0 2px;
+    border: solid 1px #9C9C9C;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#footer
+{
+    clear: both;
+    color: #999;
+    text-align: center;
+    line-height: normal;
+    padding: 10px 0 0 0;
+    margin: 0;
+    font-size: .9em;
+}
+
+#footer a
+{
+    margin: 0 10px 0 10px;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+ul#menu
+{
+    padding: 0 0 2px;
+    position: relative;
+    margin: 0;
+    text-align: right;
+}
+ul#menu li
+{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+}
+ul#menu li a
+{
+    /*padding: 10px 20px;*/
+    -moz-border-radius: 2px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    text-decoration: none; /*line-height: 2.8em;*/
+    line-height: 4em;
+    background-color: #6699FF;
+    color: #575757;
+}
+ul#menu li a:active
+{
+    background-color: #a6e2a6;
+    text-decoration: none;
+}
+
+ul#menu li.selected a
+{
+    background-color: #fff;
+    color: #000;
+}
+ul#menu li a#userpreference
+{
+    background-color: #FFFFFF;
+    color: #646464;
+}
+ul#menu li a#userpreference:hover
+{
+    background-color: #FFCC99;
+    text-decoration: underline;
+}
+ul#menu li a #uservotequota, .uservotequota
+{
+    -moz-border-radius: 4px;
+    margin-left: 4px;
+    padding: 4px 4px 4px 4px;
+    background-color: #FF9966;
+    font-weight: bold;
+    color: #575757
+}
+ul#menu li a#submitpost
+{
+    background-color: #FF9966;
+}
+ul#menu li a#submitpost:hover
+{
+    background-color: #FFCC99;
+}
+ul#menu li a:hover
+{
+    background-color: #CCCCFF;
+    text-decoration: none;
+}
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+fieldset
+{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #CCC;
+}
+fieldset p
+{
+    margin: 2px 12px 10px 10px;
+}
+fieldset label
+{
+    display: block;
+}
+fieldset label.inline
+{
+    display: inline;
+}
+
+legend
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input[type="text"]
+{
+    width: 200px;
+    border: 1px solid #CCC;
+}
+
+input[type="password"]
+{
+    width: 200px;
+    border: 1px solid #CCC;
+}
+
+input[type="text"]#Title, input[type="text"]#SourceURI
+{
+    width: 500px;
+    font-family: Verdana, Helvetica, Sans-Serif;
+}
+
+/* TAGS  
+----------------------------------------------------------*/
+.tag, #commentbutton, #commentcancelbutton, #commentsubmitbutton, #logincommentbutton
+{
+    -moz-border-radius: 4px;
+    margin: 0 4px 4px 0;
+    border-bottom: solid 1px #37607D;
+    border-right: solid 1px #37607D;
+    background-color: #E0EAF1;
+    color: #3E6D8E;
+    padding: 2px 8px 2px 8px;
+}
+.tag:hover
+{
+    background-color: #3E6D8E;
+    color: #FFFFFF;
+}
+
+/* POSTS
+----------------------------------------------------------*/
+.post
+{
+    float: left;
+    clear: left;
+    width: 100%;
+    height: 100%;
+    margin: 8px 0 0 4px;
+    padding: 0 0 8px 0;
+    border-bottom: dotted 1px #686868;
+}
+.post:hover
+{
+    -moz-border-radius: 8px;
+    background-color: #D4D9EF;
+}
+.post a
+{
+    text-decoration: none;
+}
+.post a:hover
+{
+    text-decoration: none;
+}
+.post .indent
+{
+    padding-left: 8px;
+}
+
+.stats
+{
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    padding: 8px 4px 2px 4px;
+    cursor: pointer;
+    margin: 0 4px 0 0;
+}
+
+.votecounts, .viewcounts
+{
+    -moz-border-radius: 4px;
+    font-size: 120%;
+    font-weight: bold;
+    color: #575757;
+    padding: 2px 4px 2px 4px;
+}
+.votecounts
+{
+    background-color: #FF9966;
+}
+.viewcounts
+{
+    margin: 2px 0 0 0;
+    background-color: #6699FF;
+}
+
+.summary
+{
+    float: left;
+    width: 650px;
+    margin: 0 0 0 4px;
+}
+
+.vote
+{
+    float: left;
+    margin-right: 8px;
+}
+
+.votewidget
+{
+    -moz-border-radius: 4px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.votewidgetcount
+{
+    -moz-border-radius: 4px;
+    font-size: 225%;
+    font-weight: bold;
+    text-align: center;
+    background-color: #6699FF;
+}
+.votewidgetbutton
+{
+    -moz-border-radius: 4px;
+    background-color: #FF9966;
+    text-align: center;
+    margin: 4px 0 0 0;
+    padding: 4px 0 4px 0;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: solid 1px #37607D;
+    border-right: solid 1px #37607D;
+}
+.votewidgetbutton:hover
+{
+    color: #9C9C9C;
+    background-color: #FFCC99;
+}
+.votewidgetmessage
+{
+    color: #C11B17;
+    text-align: center;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.postcontent
+{
+    float: left;
+    width: 650px;
+}
+
+textarea
+{
+    font-size: 1.2em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+}
+
+/* COMMENTS  
+----------------------------------------------------------*/
+#commentinput
+{
+    display: none;
+    clear: left;
+    float: left;
+    width: 100%; /*margin: 4px 0 0 8px;*/
+    padding: 4px 0 8px 8px;
+    border-bottom: dotted 1px #686868;
+    background-color: #DEDEDE;
+}
+
+#commentbutton, #commentsubmitbutton, #logincommentbutton
+{
+    -moz-border-radius: 2px;
+    background-color: #FF9966;
+    color: #034AF3;
+    padding: 2px 16px 2px 16px;
+    margin-right: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#commentbutton:hover, #commentsubmitbutton:hover, #logincommentbutton:hover
+{
+    background-color: #FFCC99;
+    color: #034AF3;
+    text-decoration: none;
+}
+#commentbutton, #logincommentbutton
+{
+    float: right;
+}
+
+#commentcancelbutton
+{
+    -moz-border-radius: 0px;
+    background-color: #6699FF;
+    color: #034AF3;
+    padding: 2px 16px 2px 16px;
+    margin-right: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#commentcancelbutton:hover
+{
+    background-color: #CCCCFF;
+    color: #034AF3;
+    text-decoration: none;
+}
+
+#commentsubmitresponsemsg
+{
+    font-weight: bold;
+    color: #C11B17;
+}
+
+#commentslist
+{
+    clear: left;
+    float: left;
+    width: 100%;
+    margin: 8px 0 0 4px;
+}
+#commentslist h3
+{
+    width: 100%;
+    margin: 0 0 0 8px;
+}
+
+.comment
+{
+    clear: left;
+    float: left;
+    width: 100%;
+    padding: 8px 0 0 8px;
+    border-bottom: solid 1px #C3C3C3;
+}
+.comment:hover
+{
+    background-color: #E8E8E8;
+}
+.comment img
+{
+    margin-right: 8px;
+}
+.comment span
+{
+    margin-right: 8px;
+}
+.commentheader a
+{
+    text-decoration: none;
+}
+
+.replycomment
+{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.userprofilelistitem
+{
+    width: 220px;
+    float: left;
+    margin: 4px 8px 4px 0;
+    padding: 4px 4px 4px 4px;
+    border: solid 1px #CCCCCC;
+    color: #9D9D9D;
+}
+
+.userprofilelistitem a
+{
+    text-decoration: none;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color: Red;
+}
+
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors, .preferencesaved
+{
+    font-weight: bold;
+    color: #C11B17;
+}

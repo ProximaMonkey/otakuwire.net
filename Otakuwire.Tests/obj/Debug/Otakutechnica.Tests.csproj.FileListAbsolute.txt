@@ -1,0 +1,10 @@
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\bin\Debug\Otakutechnica.Tests.dll.config
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\bin\Debug\Otakutechnica.Tests.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\bin\Debug\Otakutechnica.Tests.pdb
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\bin\Debug\Otakutechnica.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\bin\Debug\Otakutechnica.DomainModel.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\bin\Debug\Otakutechnica.DomainModel.pdb
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\bin\Debug\Otakutechnica.pdb
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\obj\Debug\Otakutechnica.Tests.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica.Tests\obj\Debug\Otakutechnica.Tests.pdb

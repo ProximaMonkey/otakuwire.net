@@ -1,0 +1,11 @@
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\bin\Otakutechnica.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\bin\Otakutechnica.pdb
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\bin\Otakutechnica.DomainModel.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\bin\System.Web.Abstractions.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\bin\System.Web.Mvc.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\bin\System.Web.Routing.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\bin\System.Web.Mvc.xml
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\bin\Otakutechnica.DomainModel.pdb
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\obj\Debug\ResolveAssemblyReference.cache
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\obj\Debug\Otakutechnica.dll
+C:\ASP.Net\Otakutechnica 0.1.1\Otakutechnica\obj\Debug\Otakutechnica.pdb

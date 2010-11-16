@@ -1,0 +1,15 @@
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.Tests.dll.config
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.Tests.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.Tests.pdb
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.DomainModel.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.Utilities.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\HtmlAgilityPack.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.pdb
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\HtmlAgilityPack.pdb
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\HtmlAgilityPack.xml
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.DomainModel.pdb
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\bin\Debug\Otakutechnica.Utilities.pdb
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\obj\Debug\Otakutechnica.Tests.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Tests\obj\Debug\Otakutechnica.Tests.pdb

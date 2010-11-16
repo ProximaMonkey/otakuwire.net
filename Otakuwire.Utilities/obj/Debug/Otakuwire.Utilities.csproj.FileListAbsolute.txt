@@ -1,0 +1,16 @@
+C:\ASP.Net\otakuwire\Otakutechnica.Utilities\bin\Debug\Otakutechnica.Utilities.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Utilities\bin\Debug\Otakutechnica.Utilities.pdb
+C:\ASP.Net\otakuwire\Otakutechnica.Utilities\bin\Debug\HtmlAgilityPack.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Utilities\bin\Debug\HtmlAgilityPack.pdb
+C:\ASP.Net\otakuwire\Otakutechnica.Utilities\bin\Debug\HtmlAgilityPack.xml
+C:\ASP.Net\otakuwire\Otakutechnica.Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\ASP.Net\otakuwire\Otakutechnica.Utilities\obj\Debug\Otakutechnica.Utilities.dll
+C:\ASP.Net\otakuwire\Otakutechnica.Utilities\obj\Debug\Otakutechnica.Utilities.pdb
+C:\ASP.Net\otakuwire\Otakuwire.Utilities\bin\Debug\Otakuwire.Utilities.dll
+C:\ASP.Net\otakuwire\Otakuwire.Utilities\bin\Debug\Otakuwire.Utilities.pdb
+C:\ASP.Net\otakuwire\Otakuwire.Utilities\bin\Debug\HtmlAgilityPack.dll
+C:\ASP.Net\otakuwire\Otakuwire.Utilities\bin\Debug\HtmlAgilityPack.pdb
+C:\ASP.Net\otakuwire\Otakuwire.Utilities\bin\Debug\HtmlAgilityPack.xml
+C:\ASP.Net\otakuwire\Otakuwire.Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\ASP.Net\otakuwire\Otakuwire.Utilities\obj\Debug\Otakuwire.Utilities.dll
+C:\ASP.Net\otakuwire\Otakuwire.Utilities\obj\Debug\Otakuwire.Utilities.pdb

@@ -1,0 +1,5 @@
+C:\ASP.Net\Otakutechnica 0.1\DomainModel\bin\Debug\DomainModel.dll
+C:\ASP.Net\Otakutechnica 0.1\DomainModel\bin\Debug\DomainModel.pdb
+C:\ASP.Net\Otakutechnica 0.1\DomainModel\obj\Debug\ResolveAssemblyReference.cache
+C:\ASP.Net\Otakutechnica 0.1\DomainModel\obj\Debug\DomainModel.dll
+C:\ASP.Net\Otakutechnica 0.1\DomainModel\obj\Debug\DomainModel.pdb
